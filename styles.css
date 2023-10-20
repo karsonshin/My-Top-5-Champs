@@ -1,0 +1,140 @@
+/*
+  Karson Shin
+  October 6th, 2023
+  Section AC, Kasten Welsh and Elias Belzberg
+
+  This styles.css file holds the various different components that will change
+  how the frontend of the website will look. This file will work with the
+  about.html file to assemble the website. The font and website color will be
+  from the League of Legends website.
+*/
+
+/*
+  Note: This body rule set is to get you started and does not count towards the CP1 requirements.
+  Feel free to change or remove any of these rules.
+*/
+body {
+  background-color: #0A1428;
+  font-family: 'Balthazar', serif;
+  color: #C89B3C;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  cursor: url("./pictures/cursor.jpg"), pointer;
+}
+
+img {
+  width: 400px;
+}
+
+.main-image, .main-image-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+#load-image-1, #load-image-2 {
+  text-align: center;
+  font-size: larger;
+  padding-bottom: 20px;
+}
+
+.main-image-2 {
+  display: inline-block;
+  border: 33px solid transparent;
+  border-image: url("./pictures/pumpkin.png") 30 repeat;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h1 h2 {
+  font-weight: bold;
+}
+
+body p {
+  font-size: 20px;
+  text-align: center;
+}
+
+p .bigger {
+  font-size: larger;
+}
+
+.bigger {
+  color: #A09B8C;
+}
+
+.smaller {
+  font-size: medium;
+  color: #005A82;
+}
+
+.drop-btn, .lol-website {
+  background-color: #C89B3C;
+  font-family: 'Balthazar', serif;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.drop-btn:hover, .drop-btn:focus, .lol-website:hover, .lol-website:focus {
+  background-color: #b37a00;
+}
+
+.lol-website-2 {
+  background-color: #005A82;
+  font-family: 'Balthazar', serif;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.lol-website-2:hover, .lol-website-2:focus {
+  background-color: #005A82;
+}
+
+#menu {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.all-champ-content {
+  font-size: large;
+  display: none;
+  position: absolute;
+  right: 0px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+}
+
+.all-champ-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.all-champ-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
